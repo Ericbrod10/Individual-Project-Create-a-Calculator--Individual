@@ -1,3 +1,3 @@
 def square_root(a):
-    b = float(a)**(1/2)
+    b = round(float(a)**(1/2), 8)
     return b
