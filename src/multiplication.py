@@ -1,5 +1,5 @@
 def multiplication(a, b):
     a = float(a)
     b = float(b)
-    c = a * b
+    c = round(a * b, 9)
     return c
